@@ -1,0 +1,2 @@
+<h2><%= current_user==@user?"":@user.name%>Followers Users</h2>
+<%= render 'index', users: @user.followers %>
